@@ -3825,8 +3825,8 @@ Then the latter transaction turns into this during parsing:
     Foo                        $1000.00
     Bar                       $-1000.00
     Assets:Cash                 $-20.00
-    Foo                        $1000.00
-    Bar                       $-1000.00
+    Foo                       $-1000.00
+    Bar                        $1000.00
 @end smallexample
 
 @node Accessing the matching posting's amount, Referring to the matching posting's account, Amount multipliers, Automated Transactions
